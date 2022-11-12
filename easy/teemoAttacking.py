@@ -8,7 +8,7 @@ class Solution:
 
         for time in timeSeries[1:]:
             if time - before < duration:
-                result += (time - before)
+                result += time - before
             else:
                 result += duration
 
